@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+## Creating Build 
+
+Alwasy use `prod` flag to make optimised dist
+`ng build --prod`
+
+## Publish site on github pages
+
+1. Install anuglar-cli-ghpages by `npm i -g angular-cli-ghpages`
+2. Publish site with sub-folder path `ng build --prod --base-url="https://rakeshongithub.github.io/angular5/ng5"`
+3. `angular-cli-ghpages --dir dist/ng5`
